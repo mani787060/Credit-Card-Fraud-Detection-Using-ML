@@ -120,12 +120,6 @@ The target variable indicates:
 
 ---
 
-## 🏁 Conclusion
-
-This project demonstrates how machine learning can help detect fraudulent credit card transactions using historical transaction data. From data preprocessing and imbalance handling to model evaluation and prediction, it provides a complete understanding of building an effective fraud detection system for real-world financial applications.
-
----
-
 ## 💻 Technologies Used
 
 * Python
@@ -134,3 +128,10 @@ This project demonstrates how machine learning can help detect fraudulent credit
 * Matplotlib
 * Seaborn
 * Scikit-Learn
+
+---
+
+## 🏁 Conclusion
+
+This project demonstrates how machine learning can help detect fraudulent credit card transactions using historical transaction data. From data preprocessing and imbalance handling to model evaluation and prediction, it provides a complete understanding of building an effective fraud detection system for real-world financial applications.
+
