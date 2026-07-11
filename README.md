@@ -1,66 +1,136 @@
-# Credit Card Fraud Detection System using Machine Learning
+# Credit Card Fraud Detection Using Machine Learning
 
-This project builds a **Machine Learning-based system** to identify whether a credit card transaction is **legit** or **fraudulent**.  
-The dataset is highly imbalanced, and the project demonstrates how to handle such imbalance and create an accurate classification model.
+## 📌 Project Overview
 
-The project includes:
-- Data exploration & preprocessing
-- Feature scaling
-- Handling imbalanced data
-- Train–test split
-- Logistic Regression / Random Forest classification
-- Performance evaluation
-- User Input Prediction System
+This project demonstrates how to build a **Machine Learning Classification Model** to detect **fraudulent credit card transactions**. Fraud detection is one of the most important real-world applications of machine learning in the financial industry, where the goal is to identify suspicious transactions while minimizing false alarms.
+
+Using the **`credit-fraud-dataset.csv`** dataset, this notebook covers the complete machine learning workflow, including data exploration, preprocessing, handling class imbalance, model training, evaluation, and fraud prediction for new transactions.
 
 ---
 
-## Project Workflow
+## 🎯 Objectives
 
-### 1. Data Preprocessing
-- Checking missing values  
-- Understanding imbalance  
-- Scaling features using StandardScaler  
-- Splitting dataset into train & test  
-
-### 2. Model Training
-Models used:
-- Logistic Regression  
-- (Optional) Random Forest Classifier  
-
-### 3. Model Evaluation
-Metrics:
-- Accuracy Score  
-- Confusion Matrix  
-- Precision, Recall, F1-score  
-- ROC Curve / AUC  
-
-### 4. Prediction System
-The notebook contains **two prediction modes**:
-
-#### Sample-based prediction  
-Predicts using any transaction row from the dataset.
-
-#### User Input Prediction System  
-User manually enters all feature values →  
-Model predicts **Legit** or **Fraudulent**.
+* Understand the credit card fraud detection problem
+* Perform data preprocessing and feature scaling
+* Handle imbalanced datasets effectively
+* Train a binary classification model
+* Evaluate model performance using multiple classification metrics
+* Predict whether a transaction is Legit or Fraudulent
 
 ---
 
-## Technologies Used
-- Python  
-- Pandas  
-- NumPy  
-- Scikit-Learn  
-- Matplotlib  
-- Seaborn  
+## 📂 Dataset
+
+**Dataset Used:** `credit-fraud-dataset.csv`
+
+The dataset contains transaction-related features collected from credit card operations. Since fraudulent transactions are very rare compared to legitimate ones, the dataset is **highly imbalanced**, making it an excellent dataset for learning fraud detection techniques.
+
+The target variable indicates:
+
+* **0 → Legit Transaction**
+* **1 → Fraudulent Transaction**
 
 ---
 
-## 💡 Final Output  
-The model predicts whether a transaction is:  
-- **LEGIT Transaction**, or  
-- **FRAUDULENT Transaction**  
-along with a **confidence score**.
+## 📖 Concepts Covered
 
-This project demonstrates complete ML workflow and fraud detection logic useful in financial applications.
+* Binary Classification
+* Fraud Detection
+* Exploratory Data Analysis (EDA)
+* Data Preprocessing
+* Feature Scaling
+* Handling Imbalanced Data
+* Train-Test Split
+* Logistic Regression
+* Model Evaluation
+* Confusion Matrix
+* Precision
+* Recall
+* F1-Score
+* ROC Curve
+* AUC Score
+* Prediction System
 
+---
+
+## 🛠️ Libraries Used
+
+* Python
+* NumPy
+* Pandas
+* Matplotlib
+* Seaborn
+* Scikit-Learn
+
+---
+
+## ⚙️ Implementation Steps
+
+### Data Preparation
+
+* Load the fraud detection dataset
+* Explore dataset structure
+* Check missing values
+* Analyze class distribution
+
+### Data Preprocessing
+
+* Prepare the dataset for machine learning
+* Scale numerical features using StandardScaler
+* Handle class imbalance
+* Split the dataset into training and testing sets
+
+### Model Training
+
+* Train a binary classification model
+* Learn transaction patterns to distinguish legitimate and fraudulent activities
+
+### Model Evaluation
+
+* Calculate Accuracy Score
+* Generate Confusion Matrix
+* Compute Precision, Recall, and F1-Score
+* Plot ROC Curve
+* Calculate AUC Score
+
+### Prediction System
+
+* Predict whether a transaction is Legit or Fraudulent
+* Test the model using new transaction data
+* Display prediction results
+
+---
+
+## 🔍 Key Observations
+
+* Fraud detection datasets are highly imbalanced.
+* Accuracy alone is not enough to evaluate model performance.
+* Precision, Recall, F1-Score, and ROC-AUC provide a better understanding of model quality.
+* Proper preprocessing and handling class imbalance improve fraud detection performance.
+
+---
+
+## ✅ Advantages
+
+* Demonstrates a complete end-to-end machine learning workflow
+* Uses a real-world financial fraud detection dataset
+* Covers handling of imbalanced classification problems
+* Includes prediction for new transaction data
+* Builds practical experience in financial machine learning applications
+
+---
+
+## 🏁 Conclusion
+
+This project demonstrates how machine learning can help detect fraudulent credit card transactions using historical transaction data. From data preprocessing and imbalance handling to model evaluation and prediction, it provides a complete understanding of building an effective fraud detection system for real-world financial applications.
+
+---
+
+## 💻 Technologies Used
+
+* Python
+* NumPy
+* Pandas
+* Matplotlib
+* Seaborn
+* Scikit-Learn
